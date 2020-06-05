@@ -19,12 +19,4 @@ class GoogleTests {
     }
 
 
-    @Test
-    void successfulSearch1() {
-        open("http://google.com");
-
-        $(byName("q")).val("lepra").pressEnter();
-
-        $("html").shouldHave(text("Лепрозорий: вход"));
-    }
 }
