@@ -17,7 +17,7 @@ class YandexTests extends TestBase {
 
         $(byName("text")).val("lepra").pressEnter();
 
-        $("html").shouldHave(text("Лепрозорий: вход"));
+        $("html").shouldHave(text("leprosorium.ru"));
     }
 
 
