@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 @Tag("search")
-class YandexTests {
+class YandexTests extends TestBase {
 
     @Test
     void successfulSearch() {
