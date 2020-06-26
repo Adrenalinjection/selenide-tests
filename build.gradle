@@ -18,14 +18,13 @@ allure {
     autoconfigure = true
     version = '2.13.3'
 
-    useJUnit4 {
+    useJUnit5 {
         version = '2.13.3'
     }
 }
 dependencies {
     compile 'io.qameta.allure:allure-java-commons:2.13.3'
 
-    testCompile 'junit:junit:4.12'
     testCompile 'com.squareup.retrofit2:retrofit:2.9.0'
     testCompile 'com.squareup.retrofit2:converter-gson:2.9.0'
 
