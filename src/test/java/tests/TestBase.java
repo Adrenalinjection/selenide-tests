@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 @Epic("QA.GURU automation course")
 @Story("tests with video")
-
+public
 class TestBase {
 
     @BeforeEach
