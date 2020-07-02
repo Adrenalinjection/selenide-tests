@@ -1,8 +1,7 @@
 package docs;
 
 import static com.codeborne.selenide.Selectors.*;
-import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$x;
+import static com.codeborne.selenide.Selenide.*;
 import static helpers.Environment.email;
 import static helpers.Environment.url;
 
