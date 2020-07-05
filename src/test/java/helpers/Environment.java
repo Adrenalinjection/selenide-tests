@@ -9,4 +9,4 @@ public class Environment {
             password = System.getProperty("password", "testpassword#&!"),
             yandexMarketUrl = System.getProperty("yandexMarketUrl", "https://market.yandex.ru/"),
             yandexMarketItemName = System.getProperty("yandexMarketItem", "iphone");
-}
+
